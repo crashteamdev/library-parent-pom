@@ -6,7 +6,7 @@
     <packaging>pom</packaging>
     <groupId>dev.crashteam</groupId>
     <artifactId>library-parent-pom</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>crashteam parent</name>
     <description>crashteam library parent pom</description>
     <url>https://github.com/crashteamdev/library-parent-pom</url>
@@ -96,6 +96,7 @@
                             <serverId>${pubStagingRepoId}</serverId>
                             <nexusUrl>${pubStagingRepo}</nexusUrl>
                             <autoReleaseAfterClose>${autoReleaseAfterClose}</autoReleaseAfterClose>
+                            <stagingProgressTimeoutMinutes>30</stagingProgressTimeoutMinutes>
                         </configuration>
                         <dependencies>
                             <dependency>
