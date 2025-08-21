@@ -6,7 +6,7 @@
     <packaging>pom</packaging>
     <groupId>dev.crashteam</groupId>
     <artifactId>library-parent-pom</artifactId>
-    <version>2.1.0</version>
+    <version>2.1.1</version>
     <name>crashteam parent</name>
     <description>crashteam library parent pom</description>
     <url>https://github.com/crashteamdev/library-parent-pom</url>
@@ -42,7 +42,7 @@
         <pubSnapRepo>https://ossrh-staging-api.central.sonatype.com/content/repositories/snapshots</pubSnapRepo>
         <pubStagingRepoId>ossrh</pubStagingRepoId>
         <pubStagingRepo>https://ossrh-staging-api.central.sonatype.com</pubStagingRepo>
-        <flatten.skip>false</flatten.skip>
+        <flatten.skip>true</flatten.skip>
     </properties>
 
     <profiles>
